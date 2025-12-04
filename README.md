@@ -94,10 +94,11 @@ Your token includes all required standard functions:
 
 | Category | Screenshot |
 |---|---|
-| **1. Deployment** | ![Deployment](screenshots/deployment.png) |
-| **2. Token Info** | ![Token Info](screenshots/token-info.png) |
-| **3. Transfer & Approve** | ![Transfer Test](screenshots/transfer-test.png) |
-| **4. Event Logs** | ![Events](screenshots/events.png) |
+| **1. Compilation** | ![Compilation](screenshots/compilation.png) |
+| **2. Deployment** | ![Deployment](screenshots/deployment.png) |
+| **3. Token Info** | ![Token Info](screenshots/token_info.png) |
+| **4. Transfer & Approve** | ![Transfer Test](screenshots/transfer-test.png) |
+| **5. Event Logs** | ![Events](screenshots/events.png) |
 
 ---
 
@@ -117,9 +118,11 @@ Your token includes all required standard functions:
 my-token/
 ├── contracts/
 │   └── MyToken.sol
-├── screenshots/
-│   ├── deployment.png       (was 01_deploy_success.png)
-│   ├── token-info.png       (was 02_balance_owner.png)
-│   ├── transfer-test.png    (was 03_approve_tx.png)
-│   └── events.png
-└── README.md
+├── README.md
+└── screenshots/
+    ├── compilation.png
+    ├── deployment.png
+    ├── token-info.png
+    ├── transfer-test.png
+    └── events.png
+
